@@ -17,7 +17,7 @@ from difflib import SequenceMatcher
 from nltk.tokenize import sent_tokenize
 
 
-with open(r"C:\Users\manar\Downloads\intents.json", 'r') as f:
+with open(r"intents.json", 'r') as f:
     data = json.load(f)
 
 #print(data)
